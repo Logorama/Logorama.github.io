@@ -17,3 +17,22 @@ footer p, .site-title a, .site-title {color:white;}
   margin-right: auto;
   width: 50%;
 }
+
+@media screen and (max-width:600px){
+  .site-nav {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: #ffffff;
+    color:black;
+    border: 5px solid red;
+    border-radius: 20px;
+    text-align: right;
+    padding: 0pt 5pt 0pt 5pt;
+
+    .page-link {
+      color: black;
+    }
+  }
+
+}
