@@ -10,13 +10,19 @@ footer p, .site-title a, .site-title {color:white;}
 .site-footer {border: 0}
 .site-title:visited {color:white;}
 .site-nav .page-link, a, a:visited,  .wrapper {color:white;}
-a:hover, h2 {color:red}
+a:hover, h2, h1 {color:red}
 
 .home, footer img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.home {
+  ul, h2, p {text-align: center}
+  a {color: red;}
+  h2 {margin-top: 40pt;}
 }
 
 @media screen and (max-width:600px){
