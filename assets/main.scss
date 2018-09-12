@@ -9,7 +9,8 @@ footer p, .site-title a, .site-title {color:white;}
 .site-header {border: 0;}
 .site-footer {border: 0}
 .site-title:visited {color:white;}
-.site-nav .page-link {color:white;}
+.site-nav .page-link, a, a:visited,  .wrapper {color:white;}
+a:hover, h2 {color:red}
 
 .home, footer img{
   display: block;
