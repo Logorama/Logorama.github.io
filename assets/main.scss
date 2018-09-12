@@ -19,6 +19,22 @@ a:hover, h2, h1 {color:red}
   width: 50%;
 }
 
+article div#links{
+  float: right;
+
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
+
+  > a { position: relative;
+    left: 50%;}
+}
+
+article {
+  h1, p {text-align: center}
+
+}
+
 .home {
   ul, h2, p {text-align: center}
   a {color: red;}

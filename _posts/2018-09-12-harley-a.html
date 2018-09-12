@@ -5,11 +5,14 @@ date:   2018-09-12 15:17:01 +1000
 categories: "Harley A"
 ---
 
+<div id="links">
 <a href="https://www.upwork.com/fl/harleya" target="_blank" rel="nofollow">Upwork</a>
 <br>
 <a href="https://github.com/grfxwzdesigner" target="_blank" rel="nofollow">GitHub</a>
-<br>
-<br>
+</div>
+<br><br><br>
+
+
 {% for image in site.static_files %}
     {% if image.path contains 'assets/images/posts/harleya' %}
         <img src="{{ site.baseurl }}{{ image.path }}"
