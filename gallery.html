@@ -4,10 +4,8 @@ title: Gallery
 permalink: /gallery/
 ---
 
-{% for image in site.static_files %}
-    {% if image.path contains 'assets/images/logos' %}
-        <img src="{{ site.baseurl }}{{ image.path }}"
-             alt="Logorama - Logos Done Rama"
-             title="Logorama - Logos Done Rama">
-    {% endif %}
+{% for i in (0..56) %}
+    <img src="{{ site.baseurl }}/assets/images/logos/logo-{{ i }}.png"
+         alt="Logorama - Logos Done Rama"
+         title="Logorama - Logos Done Rama">
 {% endfor %}

@@ -36,9 +36,9 @@ article {
 }
 
 .home {
-  ul, h2, p {text-align: center}
+  ul, h2, p, .pagination {text-align: center}
   a {color: red;}
-  h2 {margin-top: 40pt;}
+  .post-list {margin-top: 25pt;}
 }
 
 @media screen and (max-width:600px){
