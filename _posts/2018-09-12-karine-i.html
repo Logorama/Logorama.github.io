@@ -9,10 +9,8 @@ categories: "Karine I"
 </div>
 <br><br>
 
-{% for image in site.static_files %}
-    {% if image.path contains 'assets/images/posts/karinei' %}
-    <img src="{{ site.baseurl }}{{ image.path }}"
-         alt="Logorama - Logos Done Rama"
-         title="Logorama - Logos Done Rama">
-    {% endif %}
+{% for i in (10..26) %}
+    <img src="{{site.baseurl}}/assets/images/posts/karinei/logo-{{i}}.png"
+        alt="Logorama - Logos Done Rama"
+        title="Logorama - Logos Done Rama">
 {% endfor %}

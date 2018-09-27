@@ -11,10 +11,8 @@ categories: "Felipe J"
 </div>
 <br><br><br>
 
-{% for image in site.static_files %}
-    {% if image.path contains 'assets/images/posts/felipej' %}
-        <img src="{{ site.baseurl }}{{ image.path }}"
-            alt="Logorama - Logos Done Rama"
-            title="Logorama - Logos Done Rama">
-    {% endif %}
+{% for i in (0..4) %}
+    <img src="{{ site.baseurl }}/assets/images/posts/felipej/logo-{{i}}.png"
+        alt="Logorama - Logos Done Rama"
+        title="Logorama - Logos Done Rama">
 {% endfor %}
